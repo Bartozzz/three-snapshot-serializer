@@ -30,7 +30,7 @@
     "three": "^0.92.0"
   },
   "devDependencies": {
-    "@types/jest": "^23.3.2",
+    "@types/jest": "^25.1.4",
     "@types/node": "^10.11.0",
     "@types/ramda": "0.26.33",
     "jest": "^23.6.0",
