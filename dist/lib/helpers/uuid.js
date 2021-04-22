@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.replaceUUIDs = exports.replaceUUID = exports.numToUUID = exports.UUID_REGEX = exports.UUID_PLACEHOLDER = void 0;
 var R = require("ramda");
 var ramda_1 = require("./ramda");
 exports.UUID_PLACEHOLDER = "00000000-0000-0000-0000-000000000000";
@@ -29,8 +30,9 @@ exports.replaceUUID = R.curry(function (map, uuid) {
  * Replaces all UUIDs with generated, well-known substitutes. Assures that each
  * UUID is the same across snapshots.
  */
-exports.replaceUUIDs = function (object) {
+var replaceUUIDs = function (object) {
     var foundUUIDs = new Map();
     return ramda_1.recursiveMapValues(R.ifElse(R.test(exports.UUID_REGEX), exports.replaceUUID(foundUUIDs), R.identity), object);
 };
+exports.replaceUUIDs = replaceUUIDs;
 //# sourceMappingURL=uuid.js.map

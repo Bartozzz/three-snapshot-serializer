@@ -1,1 +1,1 @@
-{"version":3,"file":"globals.js","sourceRoot":"","sources":["../../src/globals.ts"],"names":[],"mappings":";;AAAa,QAAA,MAAM,GAAG;IACpB,UAAU,EAAE,GAAG;IACf,WAAW,EAAE,GAAG;CACjB,CAAC"}
+{"version":3,"file":"globals.js","sourceRoot":"","sources":["../../src/globals.ts"],"names":[],"mappings":";;;AAAa,QAAA,MAAM,GAAG;IACpB,UAAU,EAAE,GAAG;IACf,WAAW,EAAE,GAAG;CACjB,CAAC"}

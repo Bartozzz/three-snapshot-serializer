@@ -6,6 +6,6 @@ import toJSON from "./toJSON";
 export { createCamera, createRenderer, createScene, createSnapshotSerializer, toJSON };
 declare const _default: {
     test(object: any): boolean;
-    print(object: import("three").Object3D, printer: Function): any;
+    print(object: any, printer: Function): any;
 };
 export default _default;

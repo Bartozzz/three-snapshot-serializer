@@ -7,7 +7,7 @@ export default function createSnapshotSerializer(options?: Configuration) {
       return object instanceof Object3D;
     },
 
-    print(object: Object3D, printer: Function) {
+    print(object: any, printer: Function) {
       return printer(toJSON(object, options));
     },
   };

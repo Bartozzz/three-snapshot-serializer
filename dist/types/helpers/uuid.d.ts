@@ -14,7 +14,7 @@ export declare function numToUUID(id: number): string;
  * Replaces the UUID with substitute from map. If there is no substitute,
  * generates a new one.
  */
-export declare const replaceUUID: import("Function/Curry").Curry<(map: Map<string, string>, uuid: string) => any>;
+export declare const replaceUUID: import("Function/Curry").Curry<(map: UUIDMap, uuid: UUID) => any>;
 /**
  * Replaces all UUIDs with generated, well-known substitutes. Assures that each
  * UUID is the same across snapshots.
