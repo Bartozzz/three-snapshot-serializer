@@ -5,15 +5,19 @@ Object {
   "geometries": Array [
     Object {
       "depth": 1,
+      "depthSegments": 1,
       "height": 1,
+      "heightSegments": 1,
       "type": "BoxGeometry",
       "uuid": "00000000-0000-0000-0000-000000000000",
       "width": 1,
+      "widthSegments": 1,
     },
   ],
   "materials": Array [
     Object {
       "color": 32768,
+      "colorWrite": true,
       "depthFunc": 3,
       "depthTest": true,
       "depthWrite": true,
