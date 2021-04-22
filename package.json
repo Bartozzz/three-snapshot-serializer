@@ -49,6 +49,6 @@
   "dependencies": {
     "canvas": "2.6.1",
     "gl": "4.5.3",
-    "ramda": "0.27.0"
+    "ramda": "0.27.1"
   }
 }
