@@ -39,7 +39,7 @@
     "lint-staged": "^11.0.0",
     "prettier": "^2.0.4",
     "rimraf": "^3.0.2",
-    "three": "0.127.0",
+    "three": "0.129.0",
     "ts-jest": "^26.5.5",
     "ts-node": "^10.0.0",
     "tslint": "^6.1.3",
